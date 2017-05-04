@@ -9,10 +9,15 @@
     </p>
   </header>
 
-  <div class="albums ">    
+  <div class="albums wrapper">    
     <div class="" *ngFor="let album of albums">
-      <div class="cover wrapper">
+      <div class="cover">
         <img class="cover-img" src="{{album.images[0].url}}" alt="">        
+        <div class="cover-name">
+          <b class="purple" >{{album.name}}</b> 
+        </div>
+        
+        <a routerLink="/album/{{album.id}}" md-raised-button color="primary" class="block">Details</a>       
         
       </div>     
       

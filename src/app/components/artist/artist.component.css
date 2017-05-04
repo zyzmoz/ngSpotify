@@ -17,16 +17,26 @@ header{
     width: 100%;
 }
 
-.cover {        
-    width: 24%;
+.cover {    
+    width: 180px;
+    height: 260px;
     margin:2px;  
-    float: left;        
+    float: left;  
+    text-align: center;      
 }
 
-.cover-img{
-    
-    margin: auto;
+.cover-img{      
     width: 180px;
     height: 180px;
 
+}
+
+.cover-name{
+    height: 33px;
+}
+
+.block {
+    display: block;
+    
+    
 }
