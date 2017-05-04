@@ -1,0 +1,14 @@
+header{
+    width: 100%;   
+    text-align: center; 
+}
+
+.thumbnail {    
+    display: block;
+    margin: auto;   
+    width: 160px;
+    height: 160px;
+    border-radius: 180px;
+    border: 1px solid #777;
+    box-shadow: 2px 2px 5px #d7d7d7;    
+}

@@ -1,0 +1,30 @@
+.head h1 {
+    line-height: 0.5em;
+}
+
+.form{
+    margin-top: 15px;
+}
+.full-width {
+    width: 100%;
+}
+
+.card {
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    padding: 25px 5px 25px 5px;;
+    margin-bottom: 5px;    
+    box-shadow: 2px 2px 2px #e5e5e5;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card a:hover{
+    color: purple;
+}
+
+.card h3{
+    margin: 0;    
+}
