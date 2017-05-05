@@ -1,0 +1,20 @@
+.album-header {
+    width: 100%;
+    margin: 0 auto;
+}
+.album-cover {  
+    max-width: 25%;  
+    float: left;    
+}
+.album-cover img {
+    width: 100%;
+}
+
+.album-desc {
+    padding: 5px;    
+    float: left;    
+}
+
+.album-tracks{
+    width: 100%;
+}
